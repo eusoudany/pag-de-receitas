@@ -10,7 +10,8 @@
 }
 
 body{
-    background-image: url(assets/bg-image.jpg);
+    background-color: #573824;
+    background-image: url(assets/bg-image.png);
     background-size: cover;
    
 }
@@ -53,11 +54,12 @@ h2{
     margin-top:32px;
 }
 
-img{
+#cup{
     border-radius: 16px;
     margin-bottom: 4px;
-    whidth:50%;
-    heigth:50%
+    width: 100%;
+    height: auto; /* Para manter a proporção da imagem */
+    max-width: 750px; /* Limite máximo de largura */
 }
 ul{
     margin-left:24px
@@ -70,4 +72,5 @@ footer{
 
 footer img{
     vertical-align: middle;
+    color: #f0e8c2;
 }
